@@ -342,3 +342,90 @@ header n-right a{
     color: #697187;
     margin-top: 5px;
 }
+
+.cyber-footer {
+  position: relative;
+  width: 100%;
+  padding: 45px 20px;
+  background: rgba(2, 6, 23, 0.75);
+  border-top: 1px solid rgba(96, 165, 250, 0.15);
+  overflow: hidden;
+}
+
+.cyber-footer::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+  height: 200px;
+
+  background: radial-gradient( ellipse, rgba(59, 130, 246, 0.08), transparent 70%);
+  pointer-events: none;
+}
+
+.footer-container {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 25px;
+}
+
+.footer-heading h3 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  color: rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+}
+
+.footer-line {
+  height: 1px;
+  width: 100px;
+  background: linear-gradient( 90deg, transparent, rgba(96, 165, 250, 0.5), transparent);
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  margin-bottom: 22px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: #8ba9d6;
+  transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #60a5fa;
+}
+
+.copyright {
+  margin: 0 0 8px;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.footer-tagline {
+  margin: 0;
+  font-size: 11px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.3);
+}
