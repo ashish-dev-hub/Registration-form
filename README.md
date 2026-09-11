@@ -198,9 +198,3 @@ Possible improvements include:
 **Ashish Kumar**
 
 Developed as an MLCoE recruitment registration frontend project.
-
-## 📄 License
-
-This project is intended for educational and organizational use. Add an
-appropriate open-source license if the project is intended for public
-distribution.
